@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F76A057-5783-4D72-BD87-0D599C56BD8B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Defender</RootNamespace>
+    <AssemblyName>Defender</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <UpgradeBackupLocation />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Defender.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Defender.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="Telerik.Web.Spreadsheet, Version=2016.3.913.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.3.914.45\AdditionalLibraries\Bin45\Telerik.Web.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2016.3.914.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.3.914.45\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2016.3.914.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.3.914.45\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2016.3.913.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.3.914.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow, Version=2016.3.913.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.3.914.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet, Version=2016.3.913.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.3.914.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2016.3.913.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.3.914.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip, Version=2016.3.913.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.3.914.45\AdditionalLibraries\Bin45\Telerik.Windows.Zip.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apps\CaseManagement\ManagementCaseDetails.aspx.designer.vb">
+      <DependentUpon>ManagementCaseDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\CaseManagement\ManagementCaseDetails.aspx.vb">
+      <DependentUpon>ManagementCaseDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\CaseManagement\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\CaseManagement\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\PeopleSearch\AdvancedSearch.aspx.designer.vb">
+      <DependentUpon>AdvancedSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\PeopleSearch\AdvancedSearch.aspx.vb">
+      <DependentUpon>AdvancedSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\PeopleSearch\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\PeopleSearch\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\PeopleSearch\PersonCase.aspx.designer.vb">
+      <DependentUpon>PersonCase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\PeopleSearch\PersonCase.aspx.vb">
+      <DependentUpon>PersonCase.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Reports\Attorney.aspx.designer.vb">
+      <DependentUpon>Attorney.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Reports\Attorney.aspx.vb">
+      <DependentUpon>Attorney.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Reports\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Reports\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Tools\AttorneysList.aspx.designer.vb">
+      <DependentUpon>AttorneysList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Tools\AttorneysList.aspx.vb">
+      <DependentUpon>AttorneysList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Tools\ClientsList.aspx.designer.vb">
+      <DependentUpon>ClientsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Tools\ClientsList.aspx.vb">
+      <DependentUpon>ClientsList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Tools\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Tools\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Tools\JudgesList.aspx.designer.vb">
+      <DependentUpon>JudgesList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Tools\JudgesList.aspx.vb">
+      <DependentUpon>JudgesList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Tools\ParticipantsList.aspx.designer.vb">
+      <DependentUpon>ParticipantsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Tools\ParticipantsList.aspx.vb">
+      <DependentUpon>ParticipantsList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Tools\ProsecutorsList.aspx.designer.vb">
+      <DependentUpon>ProsecutorsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Tools\ProsecutorsList.aspx.vb">
+      <DependentUpon>ProsecutorsList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Code\Cases\CaseDAL.vb" />
+    <Compile Include="Code\Cases\CaseDetails.vb" />
+    <Compile Include="Code\Database\DB.vb" />
+    <Compile Include="Code\Database\DBConn.vb" />
+    <Compile Include="Code\General\CPCSFileDocument.vb" />
+    <Compile Include="Code\General\Date_Ranges.vb" />
+    <Compile Include="Code\General\GEO_Locations.vb" />
+    <Compile Include="Code\General\Site_DAL.vb" />
+    <Compile Include="Code\General\Site_FeeType.vb" />
+    <Compile Include="Code\General\Site_FieldType.vb" />
+    <Compile Include="Code\General\Site_General.vb" />
+    <Compile Include="Code\General\Site_Roles.vb" />
+    <Compile Include="Code\Organizations\CPCS_Org.vb" />
+    <Compile Include="Code\People\CPCSInvestigators.vb" />
+    <Compile Include="Code\People\CPCSSsas.vb" />
+    <Compile Include="Code\Reports\AttorneyCaseCounts.vb" />
+    <Compile Include="Code\People\CPCSAttorneys.vb" />
+    <Compile Include="Code\People\CPCSClients.vb" />
+    <Compile Include="Code\People\CPCSJudges.vb" />
+    <Compile Include="Code\People\CPCSParticipants.vb" />
+    <Compile Include="Code\People\CPCSProsecutors.vb" />
+    <Compile Include="Code\People\PeopleSearch.vb" />
+    <Compile Include="Code\People\PersonCases.vb" />
+    <Compile Include="Code\Reports\Metrics.vb" />
+    <Compile Include="Authentication\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\LogOut.aspx.designer.vb">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\LogOut.aspx.vb">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\RecoverPassword.aspx.designer.vb">
+      <DependentUpon>RecoverPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\RecoverPassword.aspx.vb">
+      <DependentUpon>RecoverPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Contact\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Generic\FooterControl.ascx.designer.vb">
+      <DependentUpon>FooterControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Generic\FooterControl.ascx.vb">
+      <DependentUpon>FooterControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Generic\HeaderControl.ascx.designer.vb">
+      <DependentUpon>HeaderControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Generic\HeaderControl.ascx.vb">
+      <DependentUpon>HeaderControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Authorization\SignIn.ascx.designer.vb">
+      <DependentUpon>SignIn.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Authorization\SignIn.ascx.vb">
+      <DependentUpon>SignIn.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseAttorneys.ascx.designer.vb">
+      <DependentUpon>CaseAttorneys.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseAttorneys.ascx.vb">
+      <DependentUpon>CaseAttorneys.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseCharges.ascx.designer.vb">
+      <DependentUpon>CaseCharges.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseCharges.ascx.vb">
+      <DependentUpon>CaseCharges.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseClient.ascx.designer.vb">
+      <DependentUpon>CaseClient.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseClient.ascx.vb">
+      <DependentUpon>CaseClient.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseInformation.ascx.designer.vb">
+      <DependentUpon>CaseInformation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseInformation.ascx.vb">
+      <DependentUpon>CaseInformation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseParticipants.ascx.designer.vb">
+      <DependentUpon>CaseParticipants.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseParticipants.ascx.vb">
+      <DependentUpon>CaseParticipants.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseSchedule.ascx.designer.vb">
+      <DependentUpon>CaseSchedule.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\CaseDetails\CaseSchedule.ascx.vb">
+      <DependentUpon>CaseSchedule.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Cases\AttorneyCases.ascx.designer.vb">
+      <DependentUpon>AttorneyCases.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Cases\AttorneyCases.ascx.vb">
+      <DependentUpon>AttorneyCases.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Cases\ClientCases.ascx.designer.vb">
+      <DependentUpon>ClientCases.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Cases\ClientCases.ascx.vb">
+      <DependentUpon>ClientCases.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Cases\ParticipantCases.ascx.designer.vb">
+      <DependentUpon>ParticipantCases.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Cases\ParticipantCases.ascx.vb">
+      <DependentUpon>ParticipantCases.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Help\CaseManagementHelp.ascx.designer.vb">
+      <DependentUpon>CaseManagementHelp.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Help\CaseManagementHelp.ascx.vb">
+      <DependentUpon>CaseManagementHelp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Help\ConflictCheckHelp.ascx.designer.vb">
+      <DependentUpon>ConflictCheckHelp.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Help\ConflictCheckHelp.ascx.vb">
+      <DependentUpon>ConflictCheckHelp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Help\GeneralHelp.ascx.designer.vb">
+      <DependentUpon>GeneralHelp.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Help\GeneralHelp.ascx.vb">
+      <DependentUpon>GeneralHelp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Help\ReportsHelp.ascx.designer.vb">
+      <DependentUpon>ReportsHelp.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Help\ReportsHelp.ascx.vb">
+      <DependentUpon>ReportsHelp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Help\UserManagementHelp.ascx.designer.vb">
+      <DependentUpon>UserManagementHelp.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Help\UserManagementHelp.ascx.vb">
+      <DependentUpon>UserManagementHelp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Navigation\DefaultSidebar.ascx.designer.vb">
+      <DependentUpon>DefaultSidebar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Navigation\DefaultSidebar.ascx.vb">
+      <DependentUpon>DefaultSidebar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Navigation\ToolsMenu.ascx.designer.vb">
+      <DependentUpon>ToolsMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Navigation\ToolsMenu.ascx.vb">
+      <DependentUpon>ToolsMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Reports\CaseDetails.ascx.designer.vb">
+      <DependentUpon>CaseDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Reports\CaseDetails.ascx.vb">
+      <DependentUpon>CaseDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\MasterPage.Master.designer.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\MasterPage.Master.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\PopupsMasterPage.master.designer.vb">
+      <DependentUpon>PopupsMasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\PopupsMasterPage.master.vb">
+      <DependentUpon>PopupsMasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings\ChangeEmail.aspx.designer.vb">
+      <DependentUpon>ChangeEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\ChangeEmail.aspx.vb">
+      <DependentUpon>ChangeEmail.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Settings\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Settings\ResetPassword.aspx.designer.vb">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\ResetPassword.aspx.vb">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Content Include="Apps\CaseManagement\ManagementCaseDetails.aspx" />
+    <Content Include="Apps\CaseManagement\Default.aspx" />
+    <Content Include="Apps\PeopleSearch\AdvancedSearch.aspx" />
+    <Content Include="Apps\PeopleSearch\Default.aspx" />
+    <Content Include="Apps\PeopleSearch\PersonCase.aspx" />
+    <Content Include="Apps\Reports\Attorney.aspx" />
+    <Content Include="Apps\Reports\Default.aspx" />
+    <Content Include="Apps\Tools\AttorneysList.aspx" />
+    <Content Include="Apps\Tools\ClientsList.aspx" />
+    <Content Include="Apps\Tools\Default.aspx" />
+    <Content Include="Apps\Tools\JudgesList.aspx" />
+    <Content Include="Apps\Tools\ParticipantsList.aspx" />
+    <Content Include="Apps\Tools\ProsecutorsList.aspx" />
+    <Content Include="bin\Telerik.Web.Spreadsheet.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Core.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Flow.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Spreadsheet.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll" />
+    <Content Include="bin\Telerik.Windows.Zip.dll" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Controls\UIs\Reports\CaseDetails.ascx" />
+    <Content Include="Scripts\css\cpcs-calender.css" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\RadCaptcha\0.wav" />
+    <Content Include="App_Data\RadCaptcha\1.wav" />
+    <Content Include="App_Data\RadCaptcha\2.wav" />
+    <Content Include="App_Data\RadCaptcha\3.wav" />
+    <Content Include="App_Data\RadCaptcha\4.wav" />
+    <Content Include="App_Data\RadCaptcha\5.wav" />
+    <Content Include="App_Data\RadCaptcha\6.wav" />
+    <Content Include="App_Data\RadCaptcha\7.wav" />
+    <Content Include="App_Data\RadCaptcha\8.wav" />
+    <Content Include="App_Data\RadCaptcha\9.wav" />
+    <Content Include="App_Data\RadCaptcha\A.wav" />
+    <Content Include="App_Data\RadCaptcha\B.wav" />
+    <Content Include="App_Data\RadCaptcha\C.wav" />
+    <Content Include="App_Data\RadCaptcha\D.wav" />
+    <Content Include="App_Data\RadCaptcha\E.wav" />
+    <Content Include="App_Data\RadCaptcha\F.wav" />
+    <Content Include="App_Data\RadCaptcha\G.wav" />
+    <Content Include="App_Data\RadCaptcha\H.wav" />
+    <Content Include="App_Data\RadCaptcha\I.wav" />
+    <Content Include="App_Data\RadCaptcha\J.wav" />
+    <Content Include="App_Data\RadCaptcha\K.wav" />
+    <Content Include="App_Data\RadCaptcha\L.wav" />
+    <Content Include="App_Data\RadCaptcha\M.wav" />
+    <Content Include="App_Data\RadCaptcha\N.wav" />
+    <Content Include="App_Data\RadCaptcha\O.wav" />
+    <Content Include="App_Data\RadCaptcha\P.wav" />
+    <Content Include="App_Data\RadCaptcha\Q.wav" />
+    <Content Include="App_Data\RadCaptcha\R.wav" />
+    <Content Include="App_Data\RadCaptcha\S.wav" />
+    <Content Include="App_Data\RadCaptcha\T.wav" />
+    <Content Include="App_Data\RadCaptcha\U.wav" />
+    <Content Include="App_Data\RadCaptcha\V.wav" />
+    <Content Include="App_Data\RadCaptcha\W.wav" />
+    <Content Include="App_Data\RadCaptcha\X.wav" />
+    <Content Include="App_Data\RadCaptcha\Y.wav" />
+    <Content Include="App_Data\RadCaptcha\Z.wav" />
+    <Content Include="App_Data\RadSpell\de-DE.tdf" />
+    <Content Include="App_Data\RadSpell\en-US.tdf" />
+    <Content Include="App_Data\RadSpell\fr-FR.tdf" />
+    <Content Include="Authentication\Default.aspx" />
+    <Content Include="Authentication\Login.aspx" />
+    <Content Include="Authentication\LogOut.aspx" />
+    <Content Include="Authentication\RecoverPassword.aspx" />
+    <Content Include="Contact\Default.aspx" />
+    <Content Include="Controls\Generic\FooterControl.ascx" />
+    <Content Include="Controls\Generic\HeaderControl.ascx" />
+    <Content Include="Controls\UIs\Authorization\SignIn.ascx" />
+    <Content Include="Controls\UIs\CaseDetails\CaseAttorneys.ascx" />
+    <Content Include="Controls\UIs\CaseDetails\CaseCharges.ascx" />
+    <Content Include="Controls\UIs\CaseDetails\CaseClient.ascx" />
+    <Content Include="Controls\UIs\CaseDetails\CaseInformation.ascx" />
+    <Content Include="Controls\UIs\CaseDetails\CaseParticipants.ascx" />
+    <Content Include="Controls\UIs\CaseDetails\CaseSchedule.ascx" />
+    <Content Include="Controls\UIs\Cases\AttorneyCases.ascx" />
+    <Content Include="Controls\UIs\Cases\ClientCases.ascx" />
+    <Content Include="Controls\UIs\Cases\ParticipantCases.ascx" />
+    <Content Include="Controls\UIs\Help\CaseManagementHelp.ascx" />
+    <Content Include="Controls\UIs\Help\ConflictCheckHelp.ascx" />
+    <Content Include="Controls\UIs\Help\GeneralHelp.ascx" />
+    <Content Include="Controls\UIs\Help\ReportsHelp.ascx" />
+    <Content Include="Controls\UIs\Help\UserManagementHelp.ascx" />
+    <Content Include="Controls\UIs\Navigation\DefaultSidebar.ascx" />
+    <Content Include="Controls\UIs\Navigation\ToolsMenu.ascx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\Favicons\manifest.json" />
+    <Content Include="Images\Logos\logo.psd" />
+    <Content Include="MasterPages\MasterPage.Master" />
+    <Content Include="MasterPages\PopupsMasterPage.master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\ZenoServer.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="favicon.ico" />
+    <Content Include="Images\Favicons\android-icon-144x144.png" />
+    <Content Include="Images\Favicons\android-icon-192x192.png" />
+    <Content Include="Images\Favicons\android-icon-36x36.png" />
+    <Content Include="Images\Favicons\android-icon-48x48.png" />
+    <Content Include="Images\Favicons\android-icon-72x72.png" />
+    <Content Include="Images\Favicons\android-icon-96x96.png" />
+    <Content Include="Images\Favicons\apple-icon-114x114.png" />
+    <Content Include="Images\Favicons\apple-icon-120x120.png" />
+    <Content Include="Images\Favicons\apple-icon-144x144.png" />
+    <Content Include="Images\Favicons\apple-icon-152x152.png" />
+    <Content Include="Images\Favicons\apple-icon-180x180.png" />
+    <Content Include="Images\Favicons\apple-icon-57x57.png" />
+    <Content Include="Images\Favicons\apple-icon-60x60.png" />
+    <Content Include="Images\Favicons\apple-icon-72x72.png" />
+    <Content Include="Images\Favicons\apple-icon-76x76.png" />
+    <Content Include="Images\Favicons\apple-icon-precomposed.png" />
+    <Content Include="Images\Favicons\apple-icon.png" />
+    <Content Include="Images\Favicons\browserconfig.xml" />
+    <Content Include="Images\Favicons\favicon-16x16.png" />
+    <Content Include="Images\Favicons\favicon-32x32.png" />
+    <Content Include="Images\Favicons\favicon-96x96.png" />
+    <Content Include="Images\Favicons\favicon.ico" />
+    <Content Include="Images\Favicons\ms-icon-144x144.png" />
+    <Content Include="Images\Favicons\ms-icon-150x150.png" />
+    <Content Include="Images\Favicons\ms-icon-310x310.png" />
+    <Content Include="Images\Favicons\ms-icon-70x70.png" />
+    <Content Include="Images\Logos\2000px-Seal_of_Massachusetts.svg.png" />
+    <Content Include="Images\Logos\defender.png" />
+    <Content Include="Images\Logos\IconAlternative.png" />
+    <Content Include="Images\Logos\logo.png" />
+    <Content Include="Images\Logos\Massachusetts_Brand.png" />
+    <Content Include="Images\Logos\seal.png" />
+    <Content Include="Images\Themes\678120-calendar-clock-512.png" />
+    <Content Include="Images\Themes\Calendar-icon.png" />
+    <Content Include="Images\Themes\calendar.png" />
+    <Content Include="Images\Themes\Diverse-Staff.jpg" />
+    <Content Include="Scripts\css\bootstrap-override.css" />
+    <Content Include="Scripts\css\bootstrap.css" />
+    <Content Include="Scripts\css\cpcs.css" />
+    <Content Include="Scripts\css\font-awesome.css" />
+    <Content Include="Scripts\css\font-awesome.min.css" />
+    <Content Include="Scripts\css\ie10-viewport-bug-workaround.css" />
+    <Content Include="Scripts\fonts\fontawesome-webfont.svg" />
+    <Content Include="Scripts\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\js\bootstrap.js" />
+    <Content Include="Scripts\js\bootstrap.min.js" />
+    <Content Include="Scripts\js\ie10-viewport-bug-workaround.js" />
+    <Content Include="Scripts\js\npm.js" />
+    <Content Include="Settings\ChangeEmail.aspx" />
+    <Content Include="Settings\Default.aspx" />
+    <Content Include="Settings\ResetPassword.aspx" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\fonts\fontawesome-webfont.eot" />
+    <Content Include="Scripts\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Scripts\fonts\fontawesome-webfont.woff" />
+    <Content Include="Scripts\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Scripts\fonts\FontAwesome.otf" />
+    <Content Include="Scripts\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Scripts\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Scripts\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\Charts\" />
+    <Folder Include="Controls\Forms\" />
+    <Folder Include="Controls\Includes\" />
+    <Folder Include="Controls\UIs\Assignments\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>Off</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49646</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49646/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseJQuerySupport="True" UseAjaxifiedTemplates="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

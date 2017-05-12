@@ -1,0 +1,274 @@
+﻿@media (min-width: 768px) {
+    
+
+    .row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .recommendation-article-title {
+    }
+
+    .profileName2 {
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .recommendation-article-title {
+    }
+
+    .profileName2 {
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .recommendation-article-title {
+    }
+
+    .profileName2 {
+    }
+}
+
+
+.smaller .rcCalendar table.rcMainTable
+{
+    height:auto; /*instead of 176*/
+}
+ 
+.smaller td.rcCalendar
+{
+    width:190px; /*instead of 220*/
+}
+ 
+.smaller td.rcTitlebar table
+{
+    line-height:22px; /*instead of 27*/
+}
+ 
+.smaller table.rcMainTable
+{
+    line-height:14px; /*instead of 17*/
+}
+ 
+.smaller table.rcMainTable .rcTitle
+{
+    line-height:18px; /*instead of 22*/
+}
+ 
+.RadGrid_Bootstrap .rgRow>td, 
+.RadGrid_Bootstrap .rgAltRow>td, 
+
+.RadGrid_Bootstrap .rgEditRow>td, 
+.RadGrid_Bootstrap .rgFooter>td, 
+.RadGrid_Bootstrap .rgFilterRow>td, 
+
+.RadGrid_Bootstrap .rgHeader, 
+.RadGrid_Bootstrap .rgResizeCol, 
+.RadGrid_Bootstrap .rgGroupHeader td {
+
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+
+
+
+.rgSelectedRow, 
+.rgSelectedRow a, 
+.rgSelectedRow 
+.text-danger, 
+.rgSelectedRow 
+.text-success {
+    color: #EEE !important;
+}
+
+
+
+.rslItemsWrapper {
+    top: -15px !important;
+}
+
+.rslItemsWrapper .rslItem {
+        height: 15px !important;
+        line-height: 15px !important;
+}
+
+
+
+
+.RadSlider .rslTop .rslItemsWrapper {
+    top: 40px !important;
+}
+
+
+.rgRow,
+.rgAltRow {
+
+
+}
+
+.rgRow td,
+.rgAltRow td
+ {
+    vertical-align: top !important;
+}
+
+
+.RadGrid_Bootstrap .rgPagerCell .rgNumPart a.rgCurrentPage {
+    background-color: #435B96 !important;
+    border: 1px solid #2e6da4;
+    color: #fff;
+}
+
+
+
+
+.navbar-inverse .navbar-brand {
+    color: #EEE;
+    font-weight: bold;
+    text-shadow: 1px 1px #333;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-origin: padding-box, padding-box;
+    color: #1B4176;
+    background-color: #F8F8F8;
+    cursor: default;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #EEE;
+    font-size: 12pt;
+    font-weight: normal;
+    margin: 9px 8px;
+    padding: 5px 16px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: transparent;
+}
+
+
+.rgHeader, .rgHeader a {
+    min-height: 40px !important;
+    color: #000 !important;
+    background-color: #D9E1F7 !important;
+    color: #222 !important;
+}
+
+
+    .rgHeader, .rgHeader a, .panel-title {
+        font-weight: 600 !important;
+        font-size: medium;
+        white-space: nowrap;
+    }
+
+
+
+.rgHeaderAlt {
+    min-height: 40px !important;
+    height: 40px !important;
+    padding-left: 10px;
+    background-color: #D9E1F7 !important;
+    color: #222 !important;
+    font-weight: 600 !important;
+    font-size: medium;
+}
+
+
+    .rgHeaderAlt a {
+        color: #222 !important; 
+    }
+
+
+
+
+
+
+
+.RadGrid_Bootstrap .rgFooter {
+    background: #435B96 !important;
+    color: #fff !important;
+}
+
+
+.RadGrid_Bootstrap tfoot {
+    background: #D9E1F7 !important;
+}
+
+
+.capitalize, 
+
+.RadGrid .rgRow, 
+.RadGrid .rgAltRow, 
+
+.RadGrid .rgHeader, 
+.RadGrid .rgResizeCol, 
+.RadGrid .rgPager,
+ 
+.RadGrid .rgGroupPanel, 
+.RadGrid .rgGroupHeader, 
+.RadAutoCompleteBoxPopup_Bootstrap {
+    text-transform: capitalize !important;
+}
+
+
+.RadGrid {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.RadGrid_Bootstrap {
+    border: 1px solid #fff !important;
+    border-radius: 4px;
+    color: #333;
+    background-color: #fff;
+}
+
+
+
+
+.input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+
+
+
+.input-group-lg .RadInput_Bootstrap.riSingle .riTextBox, .RadForm_Bootstrap.RadForm.rfdTextbox input.riTextBox.rfdDecorated {
+    height: 46px !important;
+    border-radius: 6px !important;
+    line-height: 1.3333333;
+    color: #666 !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    width: 100% !important;
+    padding-left: 14px;
+}
+
+.input-group-lg .RadInput_Bootstrap .riTextBox.riEmpty, html body .RadInput_Empty_Bootstrap {
+    color: #999 !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    padding-left: 14px;
+}
+
+.RadInput input.riEmpty, html body .RadInput textarea.riEmpty, html body input.RadInput_Empty, .racInput, .radPreventDecorate, .racEmptyMessage {
+    font-style: normal !important;
+    color: #999 !important;
+    /*font-size: 18px !important;
+    padding-left: 10px !important;*/
+}
