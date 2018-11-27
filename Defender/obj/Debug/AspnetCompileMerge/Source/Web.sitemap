@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+    <siteMapNode url="~/Default.aspx" title="CPCS Homepage"  description="Main Page">
+
+
+
+
+
+
+        <siteMapNode title="Case Records" url="~/Cases/Default.aspx" >
+
+            <siteMapNode title="Search all Cases" url="~/Cases/Search.aspx"  />
+            <siteMapNode title="Case Form"  url="~/Cases/Form.aspx" />
+            <siteMapNode title="Bail-Only Case Form"  url="~/Cases/FormBailOnly.aspx" />
+            <siteMapNode title="Conflict Check"  url="~/Cases/ConflictCheck.aspx" />
+            <!--<siteMapNode title="Conflict Check Details"  url="~/Cases/ConflictCheckDetails.aspx" />-->
+
+
+
+
+
+
+            <siteMapNode title="Reports" url="~/Cases/Reports/Default.aspx">
+
+                <siteMapNode title="Cases By Court" url="~/Cases/Reports/CasesByCourt.aspx" />
+                <siteMapNode title="Casey Report Writer" url="~/Cases/Reports/AdvSearch.aspx"  />
+                <siteMapNode title="New Cases" url="~/Cases/Reports/NewCases.aspx"  />
+                <siteMapNode title="Open Cases" url="~/Cases/Reports/OpenCases.aspx"  />
+                <siteMapNode title="Open Cases By Month" url="~/Cases/Reports/OpenCasesByMonth.aspx" />
+                <siteMapNode title="TRIS Office Stats" url="~/Cases/Reports/OfficeStats.aspx" />
+
+                <siteMapNode title="Case Load" url="~/Cases/Reports/AttyCaseLoad.aspx" />
+                <siteMapNode title="Attorney Schedule" url="~/Cases/Reports/AttySchedule.aspx" />
+
+                <siteMapNode title="Touched And Projected Cases" url="~/Cases/Reports/touchedNprojected.aspx" />
+                <siteMapNode title="Case Counts By Offense" url="~/Cases/Reports/CasesForOffense.aspx" />
+                <siteMapNode title="Interim Report" url="~/Cases/Reports/InterimReport.aspx" />
+                <siteMapNode title="Quarterly Report" url="~/Cases/Reports/QuaterlyReport.aspx" />
+                <siteMapNode title="Quarterly Report By Units" url="~/Cases/Reports/QuaterlyReportUnits.aspx" />
+                <siteMapNode title="Quarterly Report By Attorneys" url="~/Cases/Reports/QuaterlyReportAttorneys.aspx" />
+                <siteMapNode title="Quarterly Report By Attorneys Including YAD" url="~/Cases/Reports/QuaterlyReportAttorneysIncludingYAD.aspx" />
+
+                <siteMapNode title="SSA and Investigator Case Weight" url="~/Cases/Reports/ssaNinvestigator.aspx" />
+                <siteMapNode title="Murder Charges" url="~/Cases/Reports/MurderChargesReport.aspx" />
+
+                <!--<siteMapNode title="testing Jim Rpt" url="~/Cases/Reports/JimReport.aspx" />-->
+                <siteMapNode title="Custom Reports" url="~/Cases/Reports/" >
+                    <siteMapNode title="Stats By Charges" url="~/Cases/Reports/Custom/Default.aspx" />
+                </siteMapNode>
+                <siteMapNode title="CAFL Report"  roles="caflreport">
+                    <siteMapNode title="CAFL Report"  url="~/Cases/Reports/CAFLReport/CAFLCustomReport.aspx"  roles="caflreport"   />
+                </siteMapNode>
+                <siteMapNode title="YAD Report"  roles="YADreport">
+                    <siteMapNode title="YAD Report"  url="~/Cases/Reports/YADReport/YADCustomReport.aspx"  roles="YADreport"   />
+                </siteMapNode>
+            </siteMapNode>
+
+
+
+
+            <siteMapNode title="Data Maintenance"  url="~/Cases/DataMaintenance/Default.aspx" >
+                <siteMapNode title="Attorney BBO Update" url="~/Cases/DataMaintenance/AttorneyBBO.aspx" />
+                <siteMapNode title="Lead Charge Update" url="~/Cases/DataMaintenance/SetLeadCharge.aspx" />
+                <siteMapNode title="Attorneys" url="~/Cases/DataMaintenance/Attorneys.aspx" />
+                <siteMapNode title="Prosecutors" url="~/Cases/DataMaintenance/prosecutors.aspx" />
+                <siteMapNode title="Judges" url="~/Cases/DataMaintenance/judges.aspx" />
+            </siteMapNode>
+
+        </siteMapNode>
+
+
+        <siteMapNode title="Help"  url="~/Cases/Help/Default.aspx" >
+            <siteMapNode title="Casey Help Search" url="~/Cases/Help/SearchHelp.aspx" />
+        </siteMapNode>
+
+
+
+
+        <siteMapNode title="Complaints" url="~/Complaints/Default.aspx" >
+            <siteMapNode title="Complaints Form" url="~/Complaints/Form.aspx"  />
+        </siteMapNode>
+
+
+
+        <siteMapNode title="Time Sheet" url="~/TimeSheet/Default.aspx" />
+
+
+
+        <siteMapNode title="Travel/Misc Expense Vouchers" url="~/ExpenseVoucher/Default.aspx">
+            <siteMapNode title="Voucher Details" url="~/ExpenseVoucher/Details.aspx" />
+
+            <siteMapNode title="Endorse Vouchers" url="~/ExpenseVoucher/Endorsements/Default.aspx">
+                <siteMapNode title="Voucher Details" url="~/ExpenseVoucher/Endorsements/Details.aspx" />
+            </siteMapNode>
+        </siteMapNode>
+
+
+
+
+        <siteMapNode title="Authentication" url="~/Authentication/Default.aspx" >
+            <siteMapNode title="Login" url="~/Authentication/Login.aspx" />
+            <siteMapNode title="Log Out" url="~/Authentication/LogOut.aspx"  />
+            <siteMapNode title="Register new Account" url="~/Authentication/Register.aspx"  />
+            <siteMapNode title="Recover Your Password"  url="~/Authentication/RecoverPassword.aspx" />
+        </siteMapNode>
+
+
+        <siteMapNode title="Website Settings" url="~/Settings/Default.aspx" >
+            <siteMapNode title="Change your Email Address" url="~/Settings/ChangeEmail.aspx"  />
+            <siteMapNode title="Reset Your Password"  url="~/Settings/ResetPassword.aspx" />
+            <siteMapNode title="Delete Your Account"  url="~/Settings/DeleteAccount.aspx" />
+            <siteMapNode title="Edit Your Personal Information"  url="~/Settings/EditInfo.aspx" />
+        </siteMapNode>
+
+
+        <siteMapNode url="~/ErrorPages/PageNotFound.aspx" title="Page Not Found"  />
+        <siteMapNode url="~/ErrorPages/SystemError.aspx" title="System Error"  />
+
+
+
+
+        <siteMapNode url="~/Contacts/Contacts.aspx" title="Contact Us"  description="Contact CPCS" />
+
+
+
+        <siteMapNode url="~/Legal/Default.aspx" title="Legal"  description="Legal Policies">
+            <siteMapNode url="~/Legal/TermsOfService.aspx" title="Terms Of Service"  description="Terms Of Service and General Disclaimer" />
+            <siteMapNode url="~/Legal/Accessibility.aspx" title="Accessibility"  description="Accessibility" />
+            <siteMapNode url="~/Legal/Security.aspx" title="Security"  description="Security" />
+        </siteMapNode>
+
+    </siteMapNode>
+</siteMap>

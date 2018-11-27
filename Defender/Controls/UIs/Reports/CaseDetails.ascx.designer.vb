@@ -23,6 +23,69 @@ Partial Public Class CaseDetails1
     Protected WithEvents OpenCheckBox As Global.System.Web.UI.WebControls.CheckBox
     
     '''<summary>
+    '''CasePriorClientCheckBox control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents CasePriorClientCheckBox As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''ArraignCustomdyHeldCheckBox control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ArraignCustomdyHeldCheckBox As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''ArraignCustomdyReleasedCheckBox control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ArraignCustomdyReleasedCheckBox As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''ArraignServingOtherSentenceCheckBox control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ArraignServingOtherSentenceCheckBox As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''BailStatusCheckBox control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents BailStatusCheckBox As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''SsaReferralCheckBox control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents SsaReferralCheckBox As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
+    '''IncidentPoliceReportObtainedCheckBox control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents IncidentPoliceReportObtainedCheckBox As Global.System.Web.UI.WebControls.CheckBox
+    
+    '''<summary>
     '''OpeningDateLabel control.
     '''</summary>
     '''<remarks>
@@ -113,6 +176,15 @@ Partial Public Class CaseDetails1
     Protected WithEvents OfficeNameLabel As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
+    '''DistrictArraignmentDateLabel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents DistrictArraignmentDateLabel As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
     '''ClosingCourtNameLabel control.
     '''</summary>
     '''<remarks>
@@ -194,15 +266,6 @@ Partial Public Class CaseDetails1
     Protected WithEvents ClientCommitTypeNameLabel As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''DistrictArraignmentDateLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents DistrictArraignmentDateLabel As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
     '''JuryTypeNameLabel control.
     '''</summary>
     '''<remarks>
@@ -210,87 +273,6 @@ Partial Public Class CaseDetails1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents JuryTypeNameLabel As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''JurySessionCheckBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents JurySessionCheckBox As Global.System.Web.UI.WebControls.CheckBox
-    
-    '''<summary>
-    '''CasePriorClientCheckBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents CasePriorClientCheckBox As Global.System.Web.UI.WebControls.CheckBox
-    
-    '''<summary>
-    '''AdministrativelyClosedCheckBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents AdministrativelyClosedCheckBox As Global.System.Web.UI.WebControls.CheckBox
-    
-    '''<summary>
-    '''ArraignCustomdyReleasedCheckBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ArraignCustomdyReleasedCheckBox As Global.System.Web.UI.WebControls.CheckBox
-    
-    '''<summary>
-    '''ArraignCustomdyHeldCheckBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ArraignCustomdyHeldCheckBox As Global.System.Web.UI.WebControls.CheckBox
-    
-    '''<summary>
-    '''ArraignServingOtherSentenceCheckBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ArraignServingOtherSentenceCheckBox As Global.System.Web.UI.WebControls.CheckBox
-    
-    '''<summary>
-    '''BailStatusCheckBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents BailStatusCheckBox As Global.System.Web.UI.WebControls.CheckBox
-    
-    '''<summary>
-    '''SsaReferralCheckBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents SsaReferralCheckBox As Global.System.Web.UI.WebControls.CheckBox
-    
-    '''<summary>
-    '''IncidentPoliceReportObtainedCheckBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents IncidentPoliceReportObtainedCheckBox As Global.System.Web.UI.WebControls.CheckBox
     
     '''<summary>
     '''BailAmountLabel control.
@@ -309,67 +291,4 @@ Partial Public Class CaseDetails1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents BailConditionsLabel As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''SuperiorArraignmentDateLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents SuperiorArraignmentDateLabel As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''JuvenileComplaintArraignmentDateLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents JuvenileComplaintArraignmentDateLabel As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''JuvenileIndictmentArraignmentDateLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents JuvenileIndictmentArraignmentDateLabel As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''IncidentArrestDateLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents IncidentArrestDateLabel As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''IncidentPoliceReportDateLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents IncidentPoliceReportDateLabel As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''IncidentComplaintDateLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents IncidentComplaintDateLabel As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''IncidentTypeOfWeaponLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents IncidentTypeOfWeaponLabel As Global.System.Web.UI.WebControls.Label
 End Class

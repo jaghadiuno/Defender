@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Controls/UIs/Grid/NoRecords.ascx" hash="fffffffbae739e43" filehash="1be7bf0a8c06" flags="110000" assembly="Casey" type="ASP.controls_uis_grid_norecords_ascx">
+  <filedeps>
+    <filedep name="/Controls/UIs/Grid/NoRecords.ascx" />
+  </filedeps>
+</preserve>

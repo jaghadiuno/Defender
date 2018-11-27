@@ -41,6 +41,15 @@ Partial Public Class Attorney
     Protected WithEvents hdnAttorneyGUID As Global.System.Web.UI.WebControls.HiddenField
     
     '''<summary>
+    '''MetricsAjaxManager control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents MetricsAjaxManager As Global.Telerik.Web.UI.RadAjaxManager
+    
+    '''<summary>
     '''SearchPanel control.
     '''</summary>
     '''<remarks>
@@ -75,6 +84,15 @@ Partial Public Class Attorney
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents dteAssignedStartDate As Global.Telerik.Web.UI.RadDatePicker
+    
+    '''<summary>
+    '''PlaceHolder1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents PlaceHolder1 As Global.System.Web.UI.WebControls.PlaceHolder
     
     '''<summary>
     '''ddlUnAssignedOptions control.
@@ -122,6 +140,15 @@ Partial Public Class Attorney
     Protected WithEvents dteAssignedEndDate As Global.Telerik.Web.UI.RadDatePicker
     
     '''<summary>
+    '''PlaceHolder2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents PlaceHolder2 As Global.System.Web.UI.WebControls.PlaceHolder
+    
+    '''<summary>
     '''lblUnAssignedEndDate control.
     '''</summary>
     '''<remarks>
@@ -167,15 +194,6 @@ Partial Public Class Attorney
     Protected WithEvents RadClientExportManager1 As Global.Telerik.Web.UI.RadClientExportManager
     
     '''<summary>
-    '''chartArea control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents chartArea As Global.Telerik.Web.UI.RadHtmlChart
-    
-    '''<summary>
     '''GridLoadingPanel1 control.
     '''</summary>
     '''<remarks>
@@ -183,6 +201,33 @@ Partial Public Class Attorney
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents GridLoadingPanel1 As Global.Telerik.Web.UI.RadAjaxLoadingPanel
+    
+    '''<summary>
+    '''RadAjaxPanel1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadAjaxPanel1 As Global.Telerik.Web.UI.RadAjaxPanel
+    
+    '''<summary>
+    '''lblTitle control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblTitle As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''chartArea control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents chartArea As Global.Telerik.Web.UI.RadHtmlChart
     
     '''<summary>
     '''GridPanel1 control.
@@ -221,6 +266,15 @@ Partial Public Class Attorney
     Protected WithEvents odsAssignmentCounts As Global.System.Web.UI.WebControls.ObjectDataSource
     
     '''<summary>
+    '''odsAssignmentCountsAlt control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents odsAssignmentCountsAlt As Global.System.Web.UI.WebControls.ObjectDataSource
+    
+    '''<summary>
     '''dsCaseDetails control.
     '''</summary>
     '''<remarks>
@@ -228,4 +282,13 @@ Partial Public Class Attorney
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents dsCaseDetails As Global.System.Web.UI.WebControls.SqlDataSource
+    
+    '''<summary>
+    '''odsCaseCharges control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents odsCaseCharges As Global.System.Web.UI.WebControls.ObjectDataSource
 End Class

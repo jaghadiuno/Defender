@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Controls/UIs/Help/CaseManagementHelp.ascx" hash="fffffff566090d91" filehash="ffffd0da7c13b488" flags="110000" assembly="CPCSDefender" type="ASP.controls_uis_help_casemanagementhelp_ascx">
+  <filedeps>
+    <filedep name="/Controls/UIs/Help/CaseManagementHelp.ascx" />
+  </filedeps>
+</preserve>

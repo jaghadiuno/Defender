@@ -196,9 +196,6 @@ Optional ByVal ssaReferral As Int32 = Nothing
         Return ds
 
     End Function
-
-
-
     Public Shared Function getAllCases(
 Optional ByVal caseNo As String = Nothing,
 Optional ByVal charge As String = Nothing,

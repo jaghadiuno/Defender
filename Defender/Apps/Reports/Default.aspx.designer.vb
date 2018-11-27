@@ -41,6 +41,15 @@ Partial Public Class _Default6
     Protected WithEvents lblMsg As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
+    '''lbSelectedDateRange control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lbSelectedDateRange As Global.System.Web.UI.HtmlControls.HtmlButton
+    
+    '''<summary>
     '''lblSelectedDateRange control.
     '''</summary>
     '''<remarks>
@@ -122,6 +131,15 @@ Partial Public Class _Default6
     Protected WithEvents btnSearch As Global.System.Web.UI.WebControls.LinkButton
     
     '''<summary>
+    '''Panel1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Panel1 As Global.System.Web.UI.WebControls.Panel
+    
+    '''<summary>
     '''tabstripCharts control.
     '''</summary>
     '''<remarks>
@@ -192,6 +210,15 @@ Partial Public Class _Default6
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ChartLineOfficeCases As Global.Telerik.Web.UI.RadHtmlChart
+    
+    '''<summary>
+    '''pageviewDistribution control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pageviewDistribution As Global.Telerik.Web.UI.RadPageView
     
     '''<summary>
     '''tabstripGroupedMetrics control.
@@ -525,4 +552,13 @@ Partial Public Class _Default6
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents dsCaseDetails As Global.System.Web.UI.WebControls.SqlDataSource
+    
+    '''<summary>
+    '''odsCaseCharges control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents odsCaseCharges As Global.System.Web.UI.WebControls.ObjectDataSource
 End Class

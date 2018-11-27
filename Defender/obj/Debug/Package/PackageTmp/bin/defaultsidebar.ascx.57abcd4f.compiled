@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Controls/UIs/Navigation/DefaultSidebar.ascx" hash="fffffff566090d91" filehash="30f9ab47950" flags="110000" assembly="CPCSDefender" type="ASP.controls_uis_navigation_defaultsidebar_ascx">
+  <filedeps>
+    <filedep name="/Controls/UIs/Navigation/DefaultSidebar.ascx" />
+  </filedeps>
+</preserve>

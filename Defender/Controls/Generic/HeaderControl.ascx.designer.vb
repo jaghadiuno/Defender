@@ -57,31 +57,4 @@ Partial Public Class HeaderControl
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ToolsMenu As Global.Defender.ToolsMenu
-    
-    '''<summary>
-    '''linkSettings control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents linkSettings As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-    
-    '''<summary>
-    '''LoginStatus1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents LoginStatus1 As Global.System.Web.UI.WebControls.LoginStatus
-    
-    '''<summary>
-    '''LoginView1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents LoginView1 As Global.System.Web.UI.WebControls.LoginView
 End Class

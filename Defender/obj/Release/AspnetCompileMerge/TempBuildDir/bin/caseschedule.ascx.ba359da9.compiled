@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Controls/UIs/CaseDetails/CaseSchedule.ascx" hash="fffffffbae739e43" filehash="fffffea01ee1e15d" flags="110000" assembly="Casey" type="ASP.controls_uis_casedetails_caseschedule_ascx">
+  <filedeps>
+    <filedep name="/Controls/UIs/CaseDetails/CaseSchedule.ascx" />
+  </filedeps>
+</preserve>

@@ -21,6 +21,35 @@ Public Class _Default6
             chartAreaUnitAssignments.Visible = True
             ChartLineOfficeCases.Visible = False
             chartLineOfficeAssignments.Visible = False
+
+
+
+            ChartAreaUnitCases.PlotArea.Series.Item(2).Visible = False
+            ChartAreaUnitCases.PlotArea.Series.Item(3).Visible = False
+            ChartAreaUnitCases.PlotArea.Series.Item(4).Visible = False
+            ChartAreaUnitCases.PlotArea.Series.Item(5).Visible = False
+            ChartAreaUnitCases.PlotArea.Series.Item(6).Visible = False
+
+            chartAreaUnitAssignments.PlotArea.Series.Item(2).Visible = False
+            chartAreaUnitAssignments.PlotArea.Series.Item(3).Visible = False
+            chartAreaUnitAssignments.PlotArea.Series.Item(4).Visible = False
+            chartAreaUnitAssignments.PlotArea.Series.Item(5).Visible = False
+            chartAreaUnitAssignments.PlotArea.Series.Item(6).Visible = False
+
+            ChartLineOfficeCases.PlotArea.Series.Item(2).Visible = False
+            ChartLineOfficeCases.PlotArea.Series.Item(3).Visible = False
+            ChartLineOfficeCases.PlotArea.Series.Item(4).Visible = False
+            ChartLineOfficeCases.PlotArea.Series.Item(5).Visible = False
+            ChartLineOfficeCases.PlotArea.Series.Item(6).Visible = False
+
+            chartLineOfficeAssignments.PlotArea.Series.Item(2).Visible = False
+            chartLineOfficeAssignments.PlotArea.Series.Item(3).Visible = False
+            chartLineOfficeAssignments.PlotArea.Series.Item(4).Visible = False
+            chartLineOfficeAssignments.PlotArea.Series.Item(5).Visible = False
+            chartLineOfficeAssignments.PlotArea.Series.Item(6).Visible = False
+
+
+
         End If
         gridUnitCasesMetrics.ExportSettings.FileName = "cpcs-cases-metrics-" & Now()
         gridUnitCases.ExportSettings.FileName = "cpcs-cases-" & Now()
@@ -175,5 +204,26 @@ Public Class _Default6
             chartLineOfficeAssignments.Visible = False
         End If
     End Sub
+
 #End Region
+
+
+
+    Private Sub gridUnitAssignments_ItemCommand(sender As Object, e As GridCommandEventArgs) Handles gridUnitAssignments.ItemCommand
+
+        'If e.CommandName = "RowClick" OrElse e.CommandName = "ExpandCollapse" Then
+        '    e.Item.Expanded = Not e.Item.Expanded
+        'End If
+        If e.CommandName = "RowClick" Then
+            e.Item.Expanded = Not e.Item.Expanded
+        End If
+    End Sub
+
+    Private Sub gridUnitCases_ItemCommand(sender As Object, e As GridCommandEventArgs) Handles gridUnitCases.ItemCommand
+        If e.CommandName = "RowClick" Then
+            e.Item.Expanded = Not e.Item.Expanded
+        End If
+    End Sub
+
+
 End Class

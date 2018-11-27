@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Authentication/Login.aspx" hash="fffffff566090d91" filehash="f4be3cf4ed032763" flags="110000" assembly="CPCSDefender" type="ASP.authentication_login_aspx">
+  <filedeps>
+    <filedep name="/Authentication/Login.aspx" />
+    <filedep name="/Controls/Generic/FooterControl.ascx" />
+    <filedep name="/Controls/Generic/HeaderControl.ascx" />
+    <filedep name="/Controls/UIs/Authorization/SignIn.ascx" />
+    <filedep name="/Controls/UIs/Help/CaseManagementHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/ConflictCheckHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/GeneralHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/ReportsHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/UserManagementHelp.ascx" />
+    <filedep name="/Controls/UIs/Navigation/DefaultSidebar.ascx" />
+    <filedep name="/Controls/UIs/Navigation/ToolsMenu.ascx" />
+    <filedep name="/MasterPages/MasterPage.Master" />
+  </filedeps>
+</preserve>

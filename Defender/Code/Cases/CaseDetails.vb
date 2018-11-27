@@ -2,7 +2,6 @@
 
 Public Class CaseDetails
 
-
     'Public Shared Function getCaseDetails(ByVal CaseGUID As Guid) As DataTable
 
     '    Dim strCaseDetailsConn As New SqlConnection(ConfigurationManager.ConnectionStrings("ZenoConnectionString").ConnectionString)
@@ -61,8 +60,6 @@ Public Class CaseDetails
         Return Nothing
 
     End Function
-
-
 
 
     Public Shared Function getCaseCharges(ByVal CaseGUID As Guid) As DataTable
@@ -194,10 +191,6 @@ Public Class CaseDetails
     End Function
 
 
-
-
-
-
     Public Shared Function getCaseAttorneys(ByVal CaseGUID As Guid) As DataTable
 
         Dim strAttorneysConn As New SqlConnection(ConfigurationManager.ConnectionStrings("ZenoConnectionString").ConnectionString)
@@ -277,7 +270,6 @@ Public Class CaseDetails
     End Function
 
 
-
     Public Shared Function getClientInformation(ByVal CaseGUID As Guid) As DataTable
 
         'Dim ClientGUID As Guid = New Guid("d3e3116e-0f92-44f2-9a1a-7627d202b721")
@@ -289,27 +281,15 @@ Public Class CaseDetails
 
     Public Shared Function getCaseParticipants(ByVal CaseGUID As Guid) As DataSet
 
-
-
         Return DB.RetrieveDataSet("SELECT DISTINCT Participant.FirstName, Participant.MiddleName, Participant.LastName, Participant.CaseNumber, Participant.DOB, Role.RoleName, [Case].CaseGUID FROM Participant INNER JOIN Role ON Participant.RoleID = Role.RoleID INNER JOIN [Case] ON Participant.CaseNumber = [Case].CaseNumber WHERE [Case].CaseGUID='" & CaseGUID.ToString & "';")
 
-
-
     End Function
-
 
 
     Public Shared Function getCaseSchedule(ByVal CaseGUID As Guid) As DataSet
 
         Return DB.RetrieveDataSet("SELECT DISTINCT Schedule.ScheduleID, Schedule.CaseNumber, Schedule.JurySession, Schedule.Note, Schedule.DateAndTime, Event.EventName, EventType.EventTypeName, [Case].CaseGUID, Attorney.AttorneyGUID, Attorney.FirstName, Attorney.LastName FROM Schedule INNER JOIN Event ON Schedule.EventID = Event.EventID INNER JOIN EventType ON Event.EventTypeID = EventType.EventTypeID INNER JOIN [Case] ON Schedule.CaseNumber = [Case].CaseNumber INNER JOIN Attorney ON Schedule.AttorneyID = Attorney.AttorneyID WHERE [Case].CaseGUID='" & CaseGUID.ToString & "' ORDER BY Schedule.DateAndTime DESC;")
 
-
-
     End Function
-
-
-
-
-
 
 End Class

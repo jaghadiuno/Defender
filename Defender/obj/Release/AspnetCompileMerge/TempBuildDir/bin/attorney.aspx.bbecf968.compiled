@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Apps/Reports/Attorney.aspx" hash="fffffffbae739e43" filehash="58d12fdf86f769ed" flags="110000" assembly="Casey" type="ASP.apps_reports_attorney_aspx">
+  <filedeps>
+    <filedep name="/Apps/Reports/Attorney.aspx" />
+    <filedep name="/Controls/Generic/FooterControl.ascx" />
+    <filedep name="/Controls/Generic/HeaderControl.ascx" />
+    <filedep name="/Controls/UIs/Help/CaseManagementHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/ConflictCheckHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/GeneralHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/ReportsHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/UserManagementHelp.ascx" />
+    <filedep name="/Controls/UIs/Navigation/DefaultSidebar.ascx" />
+    <filedep name="/Controls/UIs/Navigation/ToolsMenu.ascx" />
+    <filedep name="/Controls/UIs/Reports/CaseCharges.ascx" />
+    <filedep name="/Controls/UIs/Reports/CaseDetails.ascx" />
+    <filedep name="/MasterPages/MasterPage.Master" />
+  </filedeps>
+</preserve>

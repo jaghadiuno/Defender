@@ -1,0 +1,50 @@
+﻿
+body {
+}
+
+
+table caption  {
+visibility: hidden !important;
+display: none !important;
+}
+
+
+/* this is the main wrapper for the calenders */
+.ctl00_ContentPlaceHolder_dteRange_wrapper, .ctl00_ContentPlaceHolder_dteRange_wrapper caption {
+
+
+}
+
+
+
+/* this is the main table for the calenders */
+
+.RadCalendar .RadCalendar_Bootstrap .RadCalendarMultiView .RadCalendarMultiView_Bootstrap .smaller, .RadCalendar .RadCalendar_Bootstrap .RadCalendarMultiView .RadCalendarMultiView_Bootstrap caption {
+
+
+}
+
+
+
+/* this is the main table encapsulating the 3 calenders.*/
+.rcMain .rcCalendars { 
+
+}
+
+
+
+/* this is the row for each individual rows in the calender week */
+.rcRow { 
+
+}
+
+/* this is the row heading for each individual rows in the calender week */
+.rcWeek { 
+
+}
+
+
+.RadCalendar_Bootstrap .rcMain .rcRow a, .RadCalendar_Bootstrap .rcMain .rcRow span {
+
+}
+

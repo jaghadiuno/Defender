@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Controls/UIs/Authorization/SignIn.ascx" hash="fffffff566090d91" filehash="1c46741d1f97" flags="110000" assembly="CPCSDefender" type="ASP.controls_uis_authorization_signin_ascx">
+  <filedeps>
+    <filedep name="/Controls/UIs/Authorization/SignIn.ascx" />
+  </filedeps>
+</preserve>

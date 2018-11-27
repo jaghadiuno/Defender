@@ -1,0 +1,3536 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Defender
+</name>
+</assembly>
+<members>
+<member name="T:Defender.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Defender.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Defender.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:Defender.ManagementCaseDetails._hdnCaseGUID">
+<summary>
+hdnCaseGUID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ManagementCaseDetails._hdnCaseID">
+<summary>
+hdnCaseID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ManagementCaseDetails._phNoCaseFound">
+<summary>
+phNoCaseFound control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ManagementCaseDetails._phCaseIsValid">
+<summary>
+phCaseIsValid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ManagementCaseDetails._ltrlCaseNumber">
+<summary>
+ltrlCaseNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ManagementCaseDetails._CaseInformation">
+<summary>
+CaseInformation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ManagementCaseDetails._CaseClient">
+<summary>
+CaseClient control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ManagementCaseDetails._CaseAttorneys">
+<summary>
+CaseAttorneys control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ManagementCaseDetails._CaseCharges">
+<summary>
+CaseCharges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ManagementCaseDetails._CaseParticipants">
+<summary>
+CaseParticipants control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ManagementCaseDetails._CaseSchedule">
+<summary>
+CaseSchedule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._AlertPanel">
+<summary>
+AlertPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblAlertPanel">
+<summary>
+lblAlertPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._SearchPanel">
+<summary>
+SearchPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._RadAjaxPanel1">
+<summary>
+RadAjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblClient">
+<summary>
+lblClient control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._txtClientName">
+<summary>
+txtClientName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblCaseNumber">
+<summary>
+lblCaseNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._txtCaseNumber">
+<summary>
+txtCaseNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblCharge">
+<summary>
+lblCharge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._txtCharge">
+<summary>
+txtCharge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblCaseType">
+<summary>
+lblCaseType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._ddlCaseType">
+<summary>
+ddlCaseType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblOpenedFrom">
+<summary>
+lblOpenedFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._ddlOpenedFromDate">
+<summary>
+ddlOpenedFromDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._dteCaseOpenedFrom">
+<summary>
+dteCaseOpenedFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._phCaseOpenedTo">
+<summary>
+phCaseOpenedTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblCaseOpenedTo">
+<summary>
+lblCaseOpenedTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._dteCaseOpenedTo">
+<summary>
+dteCaseOpenedTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblClosedFrom">
+<summary>
+lblClosedFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._ddlClosedFromDate">
+<summary>
+ddlClosedFromDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._dteCaseClosedFrom">
+<summary>
+dteCaseClosedFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._phCaseClosedTo">
+<summary>
+phCaseClosedTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblClosedTo">
+<summary>
+lblClosedTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._dteCaseClosedTo">
+<summary>
+dteCaseClosedTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblDivision">
+<summary>
+lblDivision control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._ddlDivision">
+<summary>
+ddlDivision control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblOffice">
+<summary>
+lblOffice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._ddlOffice">
+<summary>
+ddlOffice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblUnit">
+<summary>
+lblUnit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._ddlUnit">
+<summary>
+ddlUnit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblParticipant">
+<summary>
+lblParticipant control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._txtParticipantName">
+<summary>
+txtParticipantName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblAttorney">
+<summary>
+lblAttorney control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._txtAttorneyName">
+<summary>
+txtAttorneyName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblProsecutor">
+<summary>
+lblProsecutor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._txtProsecutorName">
+<summary>
+txtProsecutorName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblJudge">
+<summary>
+lblJudge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._txtJudgeName">
+<summary>
+txtJudgeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblSSA">
+<summary>
+lblSSA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._txtSSAName">
+<summary>
+txtSSAName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._lblInvestigator">
+<summary>
+lblInvestigator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._txtInvestigatorName">
+<summary>
+txtInvestigatorName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._chkHeldInCustody">
+<summary>
+chkHeldInCustody control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._chkCaseIsOpen">
+<summary>
+chkCaseIsOpen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._chkSSAReferral">
+<summary>
+chkSSAReferral control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._gridCPCSCaseSearch">
+<summary>
+gridCPCSCaseSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._SqlDSSearchResults">
+<summary>
+SqlDSSearchResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsClients">
+<summary>
+odsClients control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsAttorneys">
+<summary>
+odsAttorneys control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsProsecutors">
+<summary>
+odsProsecutors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsJudges">
+<summary>
+odsJudges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsParticipants">
+<summary>
+odsParticipants control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsInvestigators">
+<summary>
+odsInvestigators control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsSSAs">
+<summary>
+odsSSAs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsOffices">
+<summary>
+odsOffices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsDivisions">
+<summary>
+odsDivisions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsUnits">
+<summary>
+odsUnits control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsCaseTypes">
+<summary>
+odsCaseTypes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default4._odsCharges">
+<summary>
+odsCharges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._errLabel">
+<summary>
+errLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._rfvPersonName">
+<summary>
+rfvPersonName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._rfvBirthdate">
+<summary>
+rfvBirthdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._rfvPhone">
+<summary>
+rfvPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._rfvZipCode">
+<summary>
+rfvZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._vsSummary">
+<summary>
+vsSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblPersonName">
+<summary>
+lblPersonName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._txtPersonName">
+<summary>
+txtPersonName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblSearchType">
+<summary>
+lblSearchType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._blSearchType">
+<summary>
+blSearchType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblBirthdate">
+<summary>
+lblBirthdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._dteBirthdate">
+<summary>
+dteBirthdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._panelFlexibility">
+<summary>
+panelFlexibility control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._ddlFlexible">
+<summary>
+ddlFlexible control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblCaseNumber">
+<summary>
+lblCaseNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._txtCaseNumber">
+<summary>
+txtCaseNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblRole">
+<summary>
+lblRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._ddlRole">
+<summary>
+ddlRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblPhone">
+<summary>
+lblPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblAddress">
+<summary>
+lblAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblCity">
+<summary>
+lblCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._txtCity">
+<summary>
+txtCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblState">
+<summary>
+lblState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._ddlState">
+<summary>
+ddlState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblZipCode">
+<summary>
+lblZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._txtZipCode">
+<summary>
+txtZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._lblStaffLastName">
+<summary>
+lblStaffLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._txtStaffName">
+<summary>
+txtStaffName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._gridCPCSCaseSearch">
+<summary>
+gridCPCSCaseSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._dsSearchResults">
+<summary>
+dsSearchResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._odsStates">
+<summary>
+odsStates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._odsRoles">
+<summary>
+odsRoles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._odsAttorneys">
+<summary>
+odsAttorneys control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._odsStaff">
+<summary>
+odsStaff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._odsParticipants">
+<summary>
+odsParticipants control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._odsCaseTypes">
+<summary>
+odsCaseTypes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._AdvancedSearch._RadAjaxDefaultPanel1">
+<summary>
+RadAjaxDefaultPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._MetricsAjaxManager">
+<summary>
+MetricsAjaxManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._errLabel">
+<summary>
+errLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._txtPersonName">
+<summary>
+txtPersonName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._lbAdvancedSearch">
+<summary>
+lbAdvancedSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._lblSearchItem">
+<summary>
+lblSearchItem control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._gridCPCSCaseSearch">
+<summary>
+gridCPCSCaseSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._dsSearchResults">
+<summary>
+dsSearchResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._odsStates">
+<summary>
+odsStates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._odsRoles">
+<summary>
+odsRoles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._odsAttorneys">
+<summary>
+odsAttorneys control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._odsStaff">
+<summary>
+odsStaff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default5._odsParticipants">
+<summary>
+odsParticipants control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.PersonCase._AttorneyCases">
+<summary>
+AttorneyCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.PersonCase._ClientCases">
+<summary>
+ClientCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.PersonCase._ParticipantCases">
+<summary>
+ParticipantCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._hdnAttorneyName">
+<summary>
+hdnAttorneyName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._hdnAttorneyID">
+<summary>
+hdnAttorneyID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._hdnAttorneyGUID">
+<summary>
+hdnAttorneyGUID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._MetricsAjaxManager">
+<summary>
+MetricsAjaxManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._SearchPanel">
+<summary>
+SearchPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._btnCaseDetails">
+<summary>
+btnCaseDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._ddlAssignedOptions">
+<summary>
+ddlAssignedOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._dteAssignedStartDate">
+<summary>
+dteAssignedStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._PlaceHolder1">
+<summary>
+PlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._ddlUnAssignedOptions">
+<summary>
+ddlUnAssignedOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._dteUnAssignedStartDate">
+<summary>
+dteUnAssignedStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._lblAssignedEndDate">
+<summary>
+lblAssignedEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._phAssignedEndDate">
+<summary>
+phAssignedEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._dteAssignedEndDate">
+<summary>
+dteAssignedEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._PlaceHolder2">
+<summary>
+PlaceHolder2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._lblUnAssignedEndDate">
+<summary>
+lblUnAssignedEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._phUnAssignedEndDate">
+<summary>
+phUnAssignedEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._dteUnAssignedEndDate">
+<summary>
+dteUnAssignedEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._btnFilter">
+<summary>
+btnFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._RadClientExportManager1">
+<summary>
+RadClientExportManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._GridLoadingPanel1">
+<summary>
+GridLoadingPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._RadAjaxPanel1">
+<summary>
+RadAjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._lbArea">
+<summary>
+lbArea control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._lbBar">
+<summary>
+lbBar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._lbTable">
+<summary>
+lbTable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._chartArea">
+<summary>
+chartArea control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._chartColumn">
+<summary>
+chartColumn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._chartGrid">
+<summary>
+chartGrid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._GridPanel1">
+<summary>
+GridPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._gridCaseSearch">
+<summary>
+gridCaseSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._dsAttorneyCases">
+<summary>
+dsAttorneyCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._odsAssignmentCounts">
+<summary>
+odsAssignmentCounts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._odsAssignmentCountsAlt">
+<summary>
+odsAssignmentCountsAlt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._dsCaseDetails">
+<summary>
+dsCaseDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Attorney._odsCaseCharges">
+<summary>
+odsCaseCharges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._RadClientExportManager1">
+<summary>
+RadClientExportManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._MetricsAjaxManager">
+<summary>
+MetricsAjaxManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._lblMsg">
+<summary>
+lblMsg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._lbSelectedDateRange">
+<summary>
+lbSelectedDateRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._lblSelectedDateRange">
+<summary>
+lblSelectedDateRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dteRange">
+<summary>
+dteRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._lblDateRange">
+<summary>
+lblDateRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._ddlDateRange">
+<summary>
+ddlDateRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dteStartDate">
+<summary>
+dteStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dteEndDate">
+<summary>
+dteEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._rbCompareTo">
+<summary>
+rbCompareTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._ddlCompareToOptions">
+<summary>
+ddlCompareToOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._LinkButton4">
+<summary>
+LinkButton4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._LinkButton1">
+<summary>
+LinkButton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._LinkButton2">
+<summary>
+LinkButton2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._Panel1">
+<summary>
+Panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._tabstripCharts">
+<summary>
+tabstripCharts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._multipageCharts">
+<summary>
+multipageCharts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._pageviewAssignments">
+<summary>
+pageviewAssignments control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._chartAreaUnitAssignments">
+<summary>
+chartAreaUnitAssignments control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._chartLineOfficeAssignments">
+<summary>
+chartLineOfficeAssignments control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._pageviewCases">
+<summary>
+pageviewCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._ChartAreaUnitCases">
+<summary>
+ChartAreaUnitCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._ChartLineOfficeCases">
+<summary>
+ChartLineOfficeCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._pageviewDistribution">
+<summary>
+pageviewDistribution control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._tabstripGroupedMetrics">
+<summary>
+tabstripGroupedMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._multipageGroupedMetrics">
+<summary>
+multipageGroupedMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._UnitGroup">
+<summary>
+UnitGroup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._gridUnitAssignmentMetrics">
+<summary>
+gridUnitAssignmentMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._gridUnitCasesMetrics">
+<summary>
+gridUnitCasesMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._OfficeGroup">
+<summary>
+OfficeGroup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._gridOfficeAssignmentMetrics">
+<summary>
+gridOfficeAssignmentMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._gridOfficeCasesMetrics">
+<summary>
+gridOfficeCasesMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._OfficeUnitGroup">
+<summary>
+OfficeUnitGroup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._gridOfficeUnitAssignmentMetrics">
+<summary>
+gridOfficeUnitAssignmentMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._gridOfficeUnitsCasesMetrics">
+<summary>
+gridOfficeUnitsCasesMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._UnitOfficeGroup">
+<summary>
+UnitOfficeGroup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._gridUnitOfficeAssignmentMetrics">
+<summary>
+gridUnitOfficeAssignmentMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._gridUnitOfficesCasesMetrics">
+<summary>
+gridUnitOfficesCasesMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._tabstripDetails">
+<summary>
+tabstripDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._multipageDetails">
+<summary>
+multipageDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._AssignmentDetailsGroup">
+<summary>
+AssignmentDetailsGroup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._gridUnitAssignments">
+<summary>
+gridUnitAssignments control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._CaseDetailsGroup">
+<summary>
+CaseDetailsGroup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._gridUnitCases">
+<summary>
+gridUnitCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._hdnStartDate">
+<summary>
+hdnStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._hdnEndDate">
+<summary>
+hdnEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._hdnUnit">
+<summary>
+hdnUnit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._hdnOffice">
+<summary>
+hdnOffice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._hdnAttorney">
+<summary>
+hdnAttorney control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsAssignmentsByUnitsMetrics">
+<summary>
+dsAssignmentsByUnitsMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsCasesByUnitsMetrics">
+<summary>
+dsCasesByUnitsMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsAssignmentsByOfficesMetrics">
+<summary>
+dsAssignmentsByOfficesMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsCasesByOfficesMetrics">
+<summary>
+dsCasesByOfficesMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsGroupedAssignments">
+<summary>
+dsGroupedAssignments control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsGroupedCases">
+<summary>
+dsGroupedCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsCases">
+<summary>
+dsCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsAssignments">
+<summary>
+dsAssignments control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsAttorneyCases">
+<summary>
+dsAttorneyCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsAssignmentDetails">
+<summary>
+dsAssignmentDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsAttorneyAssignmentMetrics">
+<summary>
+dsAttorneyAssignmentMetrics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._dsCaseDetails">
+<summary>
+dsCaseDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default6._odsCaseCharges">
+<summary>
+odsCaseCharges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneysList._AjaxPanel1">
+<summary>
+AjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneysList._AttorneySearchBox">
+<summary>
+AttorneySearchBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneysList._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneysList._gridAttorneys">
+<summary>
+gridAttorneys control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneysList._hdnAttorneyID">
+<summary>
+hdnAttorneyID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneysList._odsAttorneys">
+<summary>
+odsAttorneys control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneysList._odsAttorneySearch">
+<summary>
+odsAttorneySearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneysList._SqlDataSource2">
+<summary>
+SqlDataSource2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientsList._AjaxPanel1">
+<summary>
+AjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientsList._ClientSearchBox">
+<summary>
+ClientSearchBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientsList._gridClients">
+<summary>
+gridClients control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientsList._odsClients">
+<summary>
+odsClients control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientsList._odsClientSearch">
+<summary>
+odsClientSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default7._ToolsMenu">
+<summary>
+ToolsMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.JudgesList._JudgeSearchBox">
+<summary>
+JudgeSearchBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.JudgesList._gridJudges">
+<summary>
+gridJudges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.JudgesList._hdnJudgeID">
+<summary>
+hdnJudgeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.JudgesList._odsJudges">
+<summary>
+odsJudges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.JudgesList._odsJudgeSearch">
+<summary>
+odsJudgeSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantsList._AjaxPanel1">
+<summary>
+AjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantsList._ParticipantSearch">
+<summary>
+ParticipantSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantsList._gridParticipants">
+<summary>
+gridParticipants control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantsList._odsParticipants">
+<summary>
+odsParticipants control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantsList._odsParticipantSearch">
+<summary>
+odsParticipantSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ProsecutorsList._ProsecutorSearchBox">
+<summary>
+ProsecutorSearchBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ProsecutorsList._gridProsecutors">
+<summary>
+gridProsecutors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ProsecutorsList._odsProsecutors">
+<summary>
+odsProsecutors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ProsecutorsList._odsProsecutorSearch">
+<summary>
+odsProsecutorSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.Login._SignIn">
+<summary>
+SignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.LogOut._Panel1">
+<summary>
+Panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.LogOut._Table1">
+<summary>
+Table1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.RecoverPassword._PasswordRecovery1">
+<summary>
+PasswordRecovery1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.HeaderControl._linkPeople">
+<summary>
+linkPeople control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.HeaderControl._linkCases">
+<summary>
+linkCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.HeaderControl._linkAssignments">
+<summary>
+linkAssignments control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.HeaderControl._toolsMore">
+<summary>
+toolsMore control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.HeaderControl._ToolsMenu">
+<summary>
+ToolsMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.SignIn._Login1">
+<summary>
+Login1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseAttorneys._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseAttorneys._odsCaseAttorneys">
+<summary>
+odsCaseAttorneys control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges._odsCaseCharges">
+<summary>
+odsCaseCharges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseClient._lvClientDetails">
+<summary>
+lvClientDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseClient._odsClientDetails">
+<summary>
+odsClientDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseClient._hdnClientID">
+<summary>
+hdnClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseInformation._dvPrimaryInfo">
+<summary>
+dvPrimaryInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseInformation._odsCaseDetails">
+<summary>
+odsCaseDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseParticipants._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseParticipants._odsCaseParticipants">
+<summary>
+odsCaseParticipants control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseSchedule._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseSchedule._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseSchedule._odsCaseSchedule">
+<summary>
+odsCaseSchedule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneyCases._hdnAttorneyName">
+<summary>
+hdnAttorneyName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneyCases._phAttorneyInfoShow">
+<summary>
+phAttorneyInfoShow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneyCases._lkDisplayInfo">
+<summary>
+lkDisplayInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneyCases._ltrlAttorneyName">
+<summary>
+ltrlAttorneyName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneyCases._lvAttorneyDetails">
+<summary>
+lvAttorneyDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneyCases._odsAttorneyDetails">
+<summary>
+odsAttorneyDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneyCases._gridCPCSCaseSearch">
+<summary>
+gridCPCSCaseSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.AttorneyCases._dsSearchResults">
+<summary>
+dsSearchResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientCases._hdnClientName">
+<summary>
+hdnClientName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientCases._phClientInfoShow">
+<summary>
+phClientInfoShow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientCases._lkDisplayInfo">
+<summary>
+lkDisplayInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientCases._ltrlAttorneyName">
+<summary>
+ltrlAttorneyName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientCases._lvClientDetails">
+<summary>
+lvClientDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientCases._odsClientDetails">
+<summary>
+odsClientDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientCases._gridCPCSCaseSearch">
+<summary>
+gridCPCSCaseSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ClientCases._dsSearchResults">
+<summary>
+dsSearchResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantCases._hdnParticipantName">
+<summary>
+hdnParticipantName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantCases._phParticipantInfoShow">
+<summary>
+phParticipantInfoShow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantCases._lkDisplayInfo">
+<summary>
+lkDisplayInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantCases._ltrlAttorneyName">
+<summary>
+ltrlAttorneyName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantCases._lvParticipantDetails">
+<summary>
+lvParticipantDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantCases._odsParticipantDetails">
+<summary>
+odsParticipantDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantCases._gridCPCSCaseSearch">
+<summary>
+gridCPCSCaseSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ParticipantCases._dsSearchResults">
+<summary>
+dsSearchResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.DefaultSidebar._hdnParticipantName">
+<summary>
+hdnParticipantName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.DefaultSidebar._phParticipantInfoShow">
+<summary>
+phParticipantInfoShow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.DefaultSidebar._lkDisplayInfo">
+<summary>
+lkDisplayInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.DefaultSidebar._ltrlAttorneyName">
+<summary>
+ltrlAttorneyName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.DefaultSidebar._lvParticipantDetails">
+<summary>
+lvParticipantDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.DefaultSidebar._odsParticipantDetails">
+<summary>
+odsParticipantDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.DefaultSidebar._gridCPCSCaseSearch">
+<summary>
+gridCPCSCaseSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.DefaultSidebar._dsSearchResults">
+<summary>
+dsSearchResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ToolsMenu._lnkAttorneysList">
+<summary>
+lnkAttorneysList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ToolsMenu._lnkClientLists">
+<summary>
+lnkClientLists control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ToolsMenu._lnkParticipantsLists">
+<summary>
+lnkParticipantsLists control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ToolsMenu._lnkProsecutorsLists">
+<summary>
+lnkProsecutorsLists control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ToolsMenu._lnkJudgesLists">
+<summary>
+lnkJudgesLists control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._OffenseLabel">
+<summary>
+OffenseLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._IsLeadChargeCheckBox">
+<summary>
+IsLeadChargeCheckBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._IsComittedCheckBox">
+<summary>
+IsComittedCheckBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._CaseChargeIDLabel">
+<summary>
+CaseChargeIDLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._DocketNumberLabel">
+<summary>
+DocketNumberLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._SentenceLabel">
+<summary>
+SentenceLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._DateOfOffenseLabel">
+<summary>
+DateOfOffenseLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._DateOfDispositionLabel">
+<summary>
+DateOfDispositionLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._ChapterLabel">
+<summary>
+ChapterLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._SectionLabel">
+<summary>
+SectionLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._StateChargeTypeLabel">
+<summary>
+StateChargeTypeLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._StateChargeSeverityLabel">
+<summary>
+StateChargeSeverityLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._NationalChargeTypeLabel">
+<summary>
+NationalChargeTypeLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._NationalChargeSeverityLabel">
+<summary>
+NationalChargeSeverityLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._ChargeStatusNameLabel">
+<summary>
+ChargeStatusNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._DispositionNameLabel">
+<summary>
+DispositionNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._SentenceTypeNameLabel">
+<summary>
+SentenceTypeNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._CourtLevelNameLabel">
+<summary>
+CourtLevelNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseCharges1._NoteLabel">
+<summary>
+NoteLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._OpenCheckBox">
+<summary>
+OpenCheckBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._CasePriorClientCheckBox">
+<summary>
+CasePriorClientCheckBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ArraignCustomdyHeldCheckBox">
+<summary>
+ArraignCustomdyHeldCheckBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ArraignCustomdyReleasedCheckBox">
+<summary>
+ArraignCustomdyReleasedCheckBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ArraignServingOtherSentenceCheckBox">
+<summary>
+ArraignServingOtherSentenceCheckBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._BailStatusCheckBox">
+<summary>
+BailStatusCheckBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._SsaReferralCheckBox">
+<summary>
+SsaReferralCheckBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._IncidentPoliceReportObtainedCheckBox">
+<summary>
+IncidentPoliceReportObtainedCheckBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._OpeningDateLabel">
+<summary>
+OpeningDateLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ClosingDateLabel">
+<summary>
+ClosingDateLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._CaseTypeNameLabel">
+<summary>
+CaseTypeNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._CourtNameLabel">
+<summary>
+CourtNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._CourtLevelNameLabel">
+<summary>
+CourtLevelNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._CourtCountyNameLabel">
+<summary>
+CourtCountyNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._DivisionNameLabel">
+<summary>
+DivisionNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._DepartmentNameLabel">
+<summary>
+DepartmentNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._UnitTypeNameLabel">
+<summary>
+UnitTypeNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._OfficeNameLabel">
+<summary>
+OfficeNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._DistrictArraignmentDateLabel">
+<summary>
+DistrictArraignmentDateLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ClosingCourtNameLabel">
+<summary>
+ClosingCourtNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ClosingCourtLevelNameLabel">
+<summary>
+ClosingCourtLevelNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ClosingCourtCountyNameLabel">
+<summary>
+ClosingCourtCountyNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._JudgeNameLabel">
+<summary>
+JudgeNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ClosingJudgeNameLabel">
+<summary>
+ClosingJudgeNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ProsecutorNameLabel">
+<summary>
+ProsecutorNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ClosingProsecutorNameLabel">
+<summary>
+ClosingProsecutorNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._CaseOpenTypeNameLabel">
+<summary>
+CaseOpenTypeNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._ClientCommitTypeNameLabel">
+<summary>
+ClientCommitTypeNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._JuryTypeNameLabel">
+<summary>
+JuryTypeNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._BailAmountLabel">
+<summary>
+BailAmountLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.CaseDetails1._BailConditionsLabel">
+<summary>
+BailConditionsLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default._SignInLoadingPanel">
+<summary>
+SignInLoadingPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default._MetricsAjaxManager">
+<summary>
+MetricsAjaxManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default._imgSignIn">
+<summary>
+imgSignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender._Default._SignIn">
+<summary>
+SignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.MasterPage._RadCodeBlock1">
+<summary>
+RadCodeBlock1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.MasterPage._HeadPlaceHolder">
+<summary>
+HeadPlaceHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.MasterPage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.MasterPage._CPCSScriptManager">
+<summary>
+CPCSScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.MasterPage._CPCSTransparentLoadingPanel">
+<summary>
+CPCSTransparentLoadingPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.MasterPage._CPCSDefaultLoadingPanel">
+<summary>
+CPCSDefaultLoadingPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.MasterPage._HeaderControl">
+<summary>
+HeaderControl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.MasterPage._ContentPlaceHolder">
+<summary>
+ContentPlaceHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.MasterPage._FooterPlaceHolder">
+<summary>
+FooterPlaceHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.MasterPage._FooterControl">
+<summary>
+FooterControl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.PopupsMasterPage._RadCodeBlock1">
+<summary>
+RadCodeBlock1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.PopupsMasterPage._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.PopupsMasterPage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.PopupsMasterPage._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.PopupsMasterPage._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ChangeEmail._Msg">
+<summary>
+Msg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ChangeEmail._EmailTextBox">
+<summary>
+EmailTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ChangeEmail._EmailRequiredValidator">
+<summary>
+EmailRequiredValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ChangeEmail._RegularExpressionValidator3">
+<summary>
+RegularExpressionValidator3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ChangeEmail._UpdateEmailButton">
+<summary>
+UpdateEmailButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Defender.ResetPassword._ChangePassword1">
+<summary>
+ChangePassword1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -362,6 +362,13 @@
       <DependentUpon>ParticipantCases.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Controls\UIs\Grid\NoRecords.ascx.designer.vb">
+      <DependentUpon>NoRecords.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Grid\NoRecords.ascx.vb">
+      <DependentUpon>NoRecords.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Controls\UIs\Help\CaseManagementHelp.ascx.designer.vb">
       <DependentUpon>CaseManagementHelp.ascx</DependentUpon>
     </Compile>
@@ -409,6 +416,13 @@
     </Compile>
     <Compile Include="Controls\UIs\Navigation\ToolsMenu.ascx.vb">
       <DependentUpon>ToolsMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UIs\Reports\CaseCharges.ascx.designer.vb">
+      <DependentUpon>CaseCharges.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UIs\Reports\CaseCharges.ascx.vb">
+      <DependentUpon>CaseCharges.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Controls\UIs\Reports\CaseDetails.ascx.designer.vb">
@@ -478,13 +492,6 @@
       <DependentUpon>ResetPassword.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Content Include="Apps\CaseManagement\ManagementCaseDetails.aspx" />
     <Content Include="Apps\CaseManagement\Default.aspx" />
     <Content Include="Apps\PeopleSearch\AdvancedSearch.aspx" />
@@ -506,14 +513,18 @@
     <Content Include="bin\Telerik.Windows.Documents.Spreadsheet.dll" />
     <Content Include="bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll" />
     <Content Include="bin\Telerik.Windows.Zip.dll" />
+    <Content Include="Images\Favicons\f708337ee4ba89bbfc7ac5570bd04d33.ico.zip" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Controls\UIs\Grid\NoRecords.ascx" />
+    <Content Include="Controls\UIs\Reports\CaseCharges.ascx" />
     <Content Include="Controls\UIs\Reports\CaseDetails.ascx" />
+    <Content Include="Images\Logos\judge-512.png" />
+    <Content Include="Images\Logos\law-gavel-512.png" />
     <Content Include="Scripts\css\cpcs-calender.css" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\licenses.licx" />
@@ -631,7 +642,6 @@
     <Content Include="Images\Favicons\ms-icon-310x310.png" />
     <Content Include="Images\Favicons\ms-icon-70x70.png" />
     <Content Include="Images\Logos\2000px-Seal_of_Massachusetts.svg.png" />
-    <Content Include="Images\Logos\defender.png" />
     <Content Include="Images\Logos\IconAlternative.png" />
     <Content Include="Images\Logos\logo.png" />
     <Content Include="Images\Logos\Massachusetts_Brand.png" />
@@ -730,7 +740,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties UseJQuerySupport="True" UseAjaxifiedTemplates="True" />
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

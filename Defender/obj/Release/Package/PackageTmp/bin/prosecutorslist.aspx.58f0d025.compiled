@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Apps/Tools/ProsecutorsList.aspx" hash="fffffffbae739e43" filehash="5f1d03b404f88fe1" flags="110000" assembly="Casey" type="ASP.apps_tools_prosecutorslist_aspx">
+  <filedeps>
+    <filedep name="/Apps/Tools/ProsecutorsList.aspx" />
+    <filedep name="/Controls/Generic/FooterControl.ascx" />
+    <filedep name="/Controls/Generic/HeaderControl.ascx" />
+    <filedep name="/Controls/UIs/Help/CaseManagementHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/ConflictCheckHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/GeneralHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/ReportsHelp.ascx" />
+    <filedep name="/Controls/UIs/Help/UserManagementHelp.ascx" />
+    <filedep name="/Controls/UIs/Navigation/DefaultSidebar.ascx" />
+    <filedep name="/Controls/UIs/Navigation/ToolsMenu.ascx" />
+    <filedep name="/MasterPages/MasterPage.Master" />
+  </filedeps>
+</preserve>

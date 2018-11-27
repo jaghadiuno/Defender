@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Controls/UIs/Navigation/ToolsMenu.ascx" hash="fffffff566090d91" filehash="ffffdc82da2735b1" flags="110000" assembly="CPCSDefender" type="ASP.controls_uis_navigation_toolsmenu_ascx">
+  <filedeps>
+    <filedep name="/Controls/UIs/Navigation/ToolsMenu.ascx" />
+  </filedeps>
+</preserve>

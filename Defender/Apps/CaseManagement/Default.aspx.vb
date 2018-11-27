@@ -11,11 +11,11 @@ Public Class _Default4
 
         If Not Page.IsPostBack Then
 
-            dteCaseOpenedFrom.SelectedDate = Now.AddYears(-5).Date
+            dteCaseOpenedFrom.SelectedDate = Now.AddYears(-1).Date
             dteCaseOpenedTo.SelectedDate = Now.Date
 
 
-            dteCaseClosedFrom.SelectedDate = Now.AddYears(-5).Date
+            dteCaseClosedFrom.SelectedDate = Now.AddYears(-1).Date
             dteCaseClosedTo.SelectedDate = Now.Date
 
 

@@ -17,7 +17,7 @@
 
         'If Request.FilePath.Contains("/filemanager/") Then linkFileManager.Attributes.Add("class", "active")
 
-        If Request.FilePath.Contains("/authentication/") Or Request.FilePath.Contains("/settings/") Then linkSettings.Attributes.Add("class", "active")
+        'If Request.FilePath.Contains("/authentication/") Or Request.FilePath.Contains("/settings/") Then linkSettings.Attributes.Add("class", "active")
 
 
         If Request.FilePath.Contains("/Tools/") Then

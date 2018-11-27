@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/MasterPages/PopupsMasterPage.master" hash="fffffffbae739e43" filehash="1b9a47c790da" flags="110000" assembly="Casey" type="ASP.masterpages_popupsmasterpage_master">
+  <filedeps>
+    <filedep name="/MasterPages/PopupsMasterPage.master" />
+  </filedeps>
+</preserve>

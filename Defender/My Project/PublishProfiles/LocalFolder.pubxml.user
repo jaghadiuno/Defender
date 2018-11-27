@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\John\Documents\Visual Studio 2015\Projects\DefenderCompiled</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Apps/CaseManagement/Default.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/CaseManagement/ManagementCaseDetails.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/PeopleSearch/AdvancedSearch.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/PeopleSearch/Default.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/PeopleSearch/PersonCase.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/Reports/Attorney.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/Reports/Default.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/Tools/AttorneysList.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/Tools/ClientsList.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/Tools/Default.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/Tools/JudgesList.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/Tools/ParticipantsList.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="Apps/Tools/ProsecutorsList.aspx">
+      <publishTime>05/19/2017 07:34:37</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/0.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/1.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/2.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/3.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/4.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/5.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/6.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/7.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/8.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/9.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/A.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/B.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/C.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/D.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/E.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/F.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/G.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/H.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/I.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/J.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/K.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/L.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/M.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/N.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/O.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/P.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/Q.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/R.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/S.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/T.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/U.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/V.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/W.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/X.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/Y.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/Z.wav">
+      <publishTime>09/14/2016 12:35:16</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/de-DE.tdf">
+      <publishTime>09/14/2016 12:38:52</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/en-US.tdf">
+      <publishTime>09/14/2016 12:38:52</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/fr-FR.tdf">
+      <publishTime>09/14/2016 12:38:52</publishTime>
+    </File>
+    <File Include="Authentication/Default.aspx">
+      <publishTime>05/19/2017 07:34:39</publishTime>
+    </File>
+    <File Include="Authentication/Login.aspx">
+      <publishTime>05/19/2017 07:34:39</publishTime>
+    </File>
+    <File Include="Authentication/LogOut.aspx">
+      <publishTime>05/19/2017 07:34:39</publishTime>
+    </File>
+    <File Include="Authentication/RecoverPassword.aspx">
+      <publishTime>05/19/2017 07:34:39</publishTime>
+    </File>
+    <File Include="bin/advancedsearch.aspx.1e6ba4d8.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>05/19/2017 07:33:56</publishTime>
+    </File>
+    <File Include="bin/attorney.aspx.bbecf968.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/attorneycases.ascx.b86f4899.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/attorneyslist.aspx.58f0d025.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/caseattorneys.ascx.ba359da9.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/casecharges.ascx.41590810.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/casecharges.ascx.ba359da9.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/caseclient.ascx.ba359da9.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/casedetails.ascx.41590810.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/caseinformation.ascx.ba359da9.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/casemanagementhelp.ascx.fb0045f4.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/caseparticipants.ascx.ba359da9.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/caseschedule.ascx.ba359da9.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/Casey.dll">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/changeemail.aspx.f634c32f.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/clientcases.ascx.b86f4899.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/clientslist.aspx.58f0d025.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/conflictcheckhelp.ascx.fb0045f4.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/default.aspx.1e6ba4d8.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/default.aspx.2ac66c76.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/default.aspx.42e473c0.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/default.aspx.58f0d025.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/default.aspx.bbecf968.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/default.aspx.cdcab7d2.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/default.aspx.e7d8667b.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/default.aspx.f634c32f.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/defaultsidebar.ascx.57abcd4f.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/Defender.dll">
+      <publishTime>05/19/2017 07:33:23</publishTime>
+    </File>
+    <File Include="bin/Defender.xml">
+      <publishTime>05/19/2017 07:33:23</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/footercontrol.ascx.6832974f.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/generalhelp.ascx.fb0045f4.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/headercontrol.ascx.6832974f.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/judgeslist.aspx.58f0d025.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/login.aspx.e7d8667b.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/logout.aspx.e7d8667b.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/managementcasedetails.aspx.2ac66c76.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/masterpage.master.7371103c.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/02/2017 17:46:32</publishTime>
+    </File>
+    <File Include="bin/norecords.ascx.c2c5bd27.compiled">
+      <publishTime>05/19/2017 07:37:35</publishTime>
+    </File>
+    <File Include="bin/participantcases.ascx.b86f4899.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="bin/participantslist.aspx.58f0d025.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="bin/personcase.aspx.1e6ba4d8.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="bin/popupsmasterpage.master.7371103c.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="bin/prosecutorslist.aspx.58f0d025.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="bin/recoverpassword.aspx.e7d8667b.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="bin/reportshelp.ascx.fb0045f4.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="bin/resetpassword.aspx.f634c32f.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="bin/signin.ascx.544d0a9d.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.Spreadsheet.dll">
+      <publishTime>09/14/2016 00:05:10</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>09/13/2016 13:10:06</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.Skins.dll">
+      <publishTime>09/13/2016 13:10:06</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Core.dll">
+      <publishTime>09/14/2016 00:05:10</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Flow.dll">
+      <publishTime>09/14/2016 00:05:10</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Spreadsheet.dll">
+      <publishTime>09/14/2016 00:05:12</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll">
+      <publishTime>09/14/2016 00:05:12</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Zip.dll">
+      <publishTime>09/14/2016 00:05:12</publishTime>
+    </File>
+    <File Include="bin/toolsmenu.ascx.57abcd4f.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="bin/usermanagementhelp.ascx.fb0045f4.compiled">
+      <publishTime>05/19/2017 07:37:36</publishTime>
+    </File>
+    <File Include="Contact/Default.aspx">
+      <publishTime>05/19/2017 07:34:39</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>05/19/2017 07:34:40</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/android-icon-144x144.png">
+      <publishTime>05/17/2017 09:09:41</publishTime>
+    </File>
+    <File Include="Images/Favicons/android-icon-192x192.png">
+      <publishTime>05/17/2017 09:09:41</publishTime>
+    </File>
+    <File Include="Images/Favicons/android-icon-36x36.png">
+      <publishTime>05/17/2017 09:09:41</publishTime>
+    </File>
+    <File Include="Images/Favicons/android-icon-48x48.png">
+      <publishTime>05/17/2017 09:09:41</publishTime>
+    </File>
+    <File Include="Images/Favicons/android-icon-72x72.png">
+      <publishTime>05/17/2017 09:09:41</publishTime>
+    </File>
+    <File Include="Images/Favicons/android-icon-96x96.png">
+      <publishTime>05/17/2017 09:09:41</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon-114x114.png">
+      <publishTime>05/17/2017 09:09:39</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon-120x120.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon-144x144.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon-152x152.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon-180x180.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon-57x57.png">
+      <publishTime>05/17/2017 09:09:41</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon-60x60.png">
+      <publishTime>05/17/2017 09:09:41</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon-72x72.png">
+      <publishTime>05/17/2017 09:09:39</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon-76x76.png">
+      <publishTime>05/17/2017 09:09:39</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon-precomposed.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/apple-icon.png">
+      <publishTime>05/17/2017 09:09:41</publishTime>
+    </File>
+    <File Include="Images/Favicons/browserconfig.xml">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/favicon-16x16.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/favicon-32x32.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/favicon-96x96.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/favicon.ico">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/manifest.json">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/ms-icon-144x144.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/ms-icon-150x150.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/ms-icon-310x310.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Favicons/ms-icon-70x70.png">
+      <publishTime>05/17/2017 09:09:40</publishTime>
+    </File>
+    <File Include="Images/Logos/2000px-Seal_of_Massachusetts.svg.png">
+      <publishTime>09/19/2016 11:27:22</publishTime>
+    </File>
+    <File Include="Images/Logos/IconAlternative.png">
+      <publishTime>09/21/2016 11:12:38</publishTime>
+    </File>
+    <File Include="Images/Logos/logo.png">
+      <publishTime>05/17/2017 18:30:48</publishTime>
+    </File>
+    <File Include="Images/Logos/logo.psd">
+      <publishTime>05/18/2017 09:40:57</publishTime>
+    </File>
+    <File Include="Images/Logos/Massachusetts_Brand.png">
+      <publishTime>09/20/2016 11:58:12</publishTime>
+    </File>
+    <File Include="Images/Logos/seal.png">
+      <publishTime>10/14/2016 11:03:30</publishTime>
+    </File>
+    <File Include="Images/Themes/678120-calendar-clock-512.png">
+      <publishTime>11/08/2016 11:38:00</publishTime>
+    </File>
+    <File Include="Images/Themes/Calendar-icon.png">
+      <publishTime>11/08/2016 11:38:06</publishTime>
+    </File>
+    <File Include="Images/Themes/calendar.png">
+      <publishTime>11/08/2016 14:04:42</publishTime>
+    </File>
+    <File Include="Images/Themes/Diverse-Staff.jpg">
+      <publishTime>10/25/2016 11:25:00</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/05/2017 12:04:12</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>05/19/2017 07:33:42</publishTime>
+    </File>
+    <File Include="Scripts/css/bootstrap-override.css">
+      <publishTime>05/18/2017 07:27:16</publishTime>
+    </File>
+    <File Include="Scripts/css/bootstrap.css">
+      <publishTime>05/17/2017 09:04:42</publishTime>
+    </File>
+    <File Include="Scripts/css/cpcs-calender.css">
+      <publishTime>05/11/2017 16:35:22</publishTime>
+    </File>
+    <File Include="Scripts/css/cpcs.css">
+      <publishTime>05/17/2017 09:02:04</publishTime>
+    </File>
+    <File Include="Scripts/css/font-awesome.css">
+      <publishTime>09/07/2016 12:36:20</publishTime>
+    </File>
+    <File Include="Scripts/css/font-awesome.min.css">
+      <publishTime>09/07/2016 12:36:20</publishTime>
+    </File>
+    <File Include="Scripts/css/ie10-viewport-bug-workaround.css">
+      <publishTime>09/14/2016 14:19:38</publishTime>
+    </File>
+    <File Include="Scripts/fonts/fontawesome-webfont.eot">
+      <publishTime>09/07/2016 12:36:20</publishTime>
+    </File>
+    <File Include="Scripts/fonts/fontawesome-webfont.svg">
+      <publishTime>09/07/2016 12:36:20</publishTime>
+    </File>
+    <File Include="Scripts/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/07/2016 12:36:20</publishTime>
+    </File>
+    <File Include="Scripts/fonts/fontawesome-webfont.woff">
+      <publishTime>09/07/2016 12:36:20</publishTime>
+    </File>
+    <File Include="Scripts/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/07/2016 12:36:20</publishTime>
+    </File>
+    <File Include="Scripts/fonts/FontAwesome.otf">
+      <publishTime>09/07/2016 12:36:20</publishTime>
+    </File>
+    <File Include="Scripts/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="Scripts/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="Scripts/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="Scripts/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="Scripts/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.js">
+      <publishTime>05/05/2017 12:04:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.js">
+      <publishTime>05/05/2017 12:04:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.map">
+      <publishTime>05/05/2017 12:04:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.js">
+      <publishTime>05/05/2017 12:04:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.js">
+      <publishTime>05/05/2017 12:04:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.map">
+      <publishTime>05/05/2017 12:04:10</publishTime>
+    </File>
+    <File Include="Scripts/js/bootstrap.js">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Scripts/js/bootstrap.min.js">
+      <publishTime>07/25/2016 15:53:30</publishTime>
+    </File>
+    <File Include="Scripts/js/ie10-viewport-bug-workaround.js">
+      <publishTime>09/14/2016 14:19:14</publishTime>
+    </File>
+    <File Include="Scripts/js/npm.js">
+      <publishTime>07/25/2016 15:53:30</publishTime>
+    </File>
+    <File Include="Settings/ChangeEmail.aspx">
+      <publishTime>05/19/2017 07:34:45</publishTime>
+    </File>
+    <File Include="Settings/Default.aspx">
+      <publishTime>05/19/2017 07:34:45</publishTime>
+    </File>
+    <File Include="Settings/ResetPassword.aspx">
+      <publishTime>05/19/2017 07:34:45</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>05/19/2017 07:32:45</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>03/13/2017 11:05:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

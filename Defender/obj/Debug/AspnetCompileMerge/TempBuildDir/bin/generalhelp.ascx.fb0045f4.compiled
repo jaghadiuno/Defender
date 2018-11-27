@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Controls/UIs/Help/GeneralHelp.ascx" hash="fffffff566090d91" filehash="fffffa2c36adebf1" flags="110000" assembly="CPCSDefender" type="ASP.controls_uis_help_generalhelp_ascx">
+  <filedeps>
+    <filedep name="/Controls/UIs/Help/GeneralHelp.ascx" />
+  </filedeps>
+</preserve>

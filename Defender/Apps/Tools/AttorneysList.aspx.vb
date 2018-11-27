@@ -72,5 +72,35 @@ Public Class AttorneysList
 
     'End Sub
 
+    Protected Sub Page_Load(sender As Object, args As EventArgs) Handles Me.Load
+        ' A parameter for the Charts' data source is set in the ItemDataBound event of the RadGrid
+        ' and a postback from the skin chooser does not rebind the grid, so the charts will not have any data
+        For Each item As GridDataItem In gridAttorneys.MasterTableView.Items
+            Dim chart As RadHtmlChart = TryCast(item("ChartColumn").FindControl("chartArea"), RadHtmlChart)
+            SqlDataSource2.SelectParameters(0).DefaultValue = item.GetDataKeyValue("AttorneyGUID").ToString()
+            SqlDataSource2.SelectParameters(1).DefaultValue = Now.Date.AddYears(-10)
+            SqlDataSource2.SelectParameters(2).DefaultValue = Now.Date
+            chart.DataSource = SqlDataSource2.[Select](DataSourceSelectArguments.Empty)
+            chart.DataBind()
+        Next
+
+    End Sub
+
+    Protected Sub gridAttorneys_ItemDataBound(sender As Object, e As GridItemEventArgs) Handles gridAttorneys.ItemDataBound
+        If e.Item.ItemType = GridItemType.Item OrElse e.Item.ItemType = GridItemType.AlternatingItem Then
+            Dim item As GridDataItem = TryCast(e.Item, GridDataItem)
+            Dim chart As RadHtmlChart = TryCast(item("ChartColumn").FindControl("chartArea"), RadHtmlChart)
+            SqlDataSource2.SelectParameters(0).DefaultValue = item.GetDataKeyValue("AttorneyGUID").ToString()
+            SqlDataSource2.SelectParameters(1).DefaultValue = Now.Date.AddYears(-10)
+            SqlDataSource2.SelectParameters(2).DefaultValue = Now.Date
+            chart.DataSource = SqlDataSource2.[Select](DataSourceSelectArguments.Empty)
+            If (TryCast(chart.DataSource, DataView)).Count > 0 Then
+                chart.DataBind()
+            Else
+                chart.Visible = False
+                item("ChartColumn").Controls.Add(New LiteralControl("This attorney has had no assignments in the last 10 years."))
+            End If
+        End If
+    End Sub
 
 End Class

@@ -437,15 +437,6 @@ Partial Public Class _Default4
     Protected WithEvents gridCPCSCaseSearch As Global.Telerik.Web.UI.RadGrid
     
     '''<summary>
-    '''SqlDSSearchResultsXX control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents SqlDSSearchResultsXX As Global.System.Web.UI.WebControls.ObjectDataSource
-    
-    '''<summary>
     '''SqlDSSearchResults control.
     '''</summary>
     '''<remarks>

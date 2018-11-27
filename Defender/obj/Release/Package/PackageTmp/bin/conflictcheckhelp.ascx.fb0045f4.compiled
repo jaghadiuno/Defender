@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Controls/UIs/Help/ConflictCheckHelp.ascx" hash="fffffffbae739e43" filehash="20b90fa1fa86" flags="110000" assembly="Casey" type="ASP.controls_uis_help_conflictcheckhelp_ascx">
+  <filedeps>
+    <filedep name="/Controls/UIs/Help/ConflictCheckHelp.ascx" />
+  </filedeps>
+</preserve>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Controls/Generic/FooterControl.ascx" hash="fffffff566090d91" filehash="e2482a91bf7" flags="110000" assembly="CPCSDefender" type="ASP.controls_generic_footercontrol_ascx">
+  <filedeps>
+    <filedep name="/Controls/Generic/FooterControl.ascx" />
+  </filedeps>
+</preserve>
